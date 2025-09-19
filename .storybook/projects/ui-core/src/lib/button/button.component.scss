@@ -1,0 +1,23 @@
+/*
+ * Estilos del componente Button.  Importamos las variables SCSS generadas a partir de
+ * los tokens para que nuestros estilos recojan automáticamente los cambios desde Figma.
+ */
+@import '../../styles/tokens/_variables';
+
+.button {
+  font-family: sans-serif;
+  font-size: 14px;
+  /* Uso de propiedades personalizadas generadas por style dictionary.  Los valores de
+     respaldo se pueden eliminar una vez que generes variables.css a partir de tus tokens. */
+  background-color: var(--color-primary, #3181ea);
+  color: var(--primitives-white, #ffffff);
+  padding: var(--spacing-md, 0.5rem) 1rem;
+  border-radius: var(--radius-md, 4px);
+  border: none;
+  cursor: pointer;
+}
+
+.button.secondary {
+  background-color: var(--color-secondary, #8e8e8e);
+  color: var(--primitives-black, #000000);
+}
