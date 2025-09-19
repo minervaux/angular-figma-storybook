@@ -1,0 +1,21 @@
+{
+  "name": "angular-storybook-playground",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Prueba de concepto para conectar tokens de Figma con Storybook en Angular.",
+  "scripts": {
+    "build:tokens": "style-dictionary build",
+    "storybook": "storybook dev -p 6006"
+  },
+  "devDependencies": {
+    "@storybook/angular": "^7.6.0",
+    "@storybook/addon-essentials": "^7.6.0",
+    "@storybook/addon-links": "^7.6.0",
+    "style-dictionary": "^3.1.0"
+  },
+  "dependencies": {
+    "@angular/core": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0"
+  }
+}
